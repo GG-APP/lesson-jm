@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-   <div>
-    Teste
-   </div> 
+    <div>
+      Pagina de Login
+    </div>
   )
 }
