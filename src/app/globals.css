@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.backgroudSkyBlue {
+  background: #84CAE7;
+}
+
+.constrastSkyBlue {
+  background:#1A5F7C;
+}
