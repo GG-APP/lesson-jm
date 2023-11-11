@@ -26,12 +26,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'Jost', sans-serif;
 }
 
-.backgroudSkyBlue {
-  background: #84CAE7;
+.title{ 
+  font-family: 'Jost', sans-serif;
 }
 
-.constrastSkyBlue {
-  background:#1A5F7C;
+.button_type_1 {
+  color: rgb(30, 30, 30);
+  background: linear-gradient(90deg, rgba(245,244,250,1) 0%, rgba(255,255,255,1) 100%);
 }
