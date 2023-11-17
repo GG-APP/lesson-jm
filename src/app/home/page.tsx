@@ -1,12 +1,12 @@
 'use client'
-import BUTTON_TYPE_1 from "@/components/BUTTON_TYPE_1";
-export default function Home() {
-  function Register() {
-    console.log("Tentou Registrar");
-  }
 
-  function LogIn() {
-    console.log("Tentou Logar");
+import BUTTON_TYPE_1 from "@/components/BUTTON_TYPE_1";
+import { useRouter } from "next/navigation";
+export default function Home() {
+  const router = useRouter()
+
+  function GoToRegister() {
+    router.push("/register/professor")
   }
 
   return (
@@ -17,8 +17,8 @@ export default function Home() {
             lesson-jm
           </div>
           <div className="flex flex-row space-x-4">
-            <BUTTON_TYPE_1 functionTrigger={Register} text="Registrar" />
-            <BUTTON_TYPE_1 functionTrigger={LogIn} text="Entrar" />
+            <BUTTON_TYPE_1 functionTrigger={GoToRegister} text="Registrar" />
+            <BUTTON_TYPE_1 text="Entrar" />
           </div>
         </div>
       </div>
