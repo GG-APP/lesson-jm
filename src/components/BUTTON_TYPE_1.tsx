@@ -1,6 +1,6 @@
 interface BUTTON_TYPE_1_PROPS {
   text: string
-  functionTrigger: () => void
+  functionTrigger?: () => void
 }
 
 export default function BUTTON_TYPE_1(props: BUTTON_TYPE_1_PROPS) {
