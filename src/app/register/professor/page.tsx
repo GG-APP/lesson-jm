@@ -1,4 +1,3 @@
-'use client'
 export default function RegisterProfessor() {
   return (
     <div className="flex flex-row">
