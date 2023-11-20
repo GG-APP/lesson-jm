@@ -1,5 +1,3 @@
-'use client'
-
 import BUTTON_TYPE_1 from "@/components/BUTTON_TYPE_1";
 import { useRouter } from "next/navigation";
 export default function Home() {
