@@ -8,7 +8,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex bg-gradient-to-r from-blue-500 to-blue-600">
+    <div className="flex bg-gradient-to-r from-green-500 to-green-600">
       <div className="h-screen w-full">
         <div className="flex flex-row m-5 justify-between place-items-center select-none">
           <div className="title text-6xl hover:shadow-sm duration-300">
